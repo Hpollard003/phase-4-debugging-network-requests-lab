@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: There was a typo in the create method in toys_controller.rb where the plural of "Toy" was used and that was causing the error.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: After checking all the toys_controller.rb methods an issue on the update action method was found, it was never returning a rendered json object.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: I allowed routes.rb to accept the destroy action. 
